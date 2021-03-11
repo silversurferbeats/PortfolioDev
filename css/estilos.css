@@ -419,7 +419,7 @@ span {
 
 /** MEDIAS QUERY PARA RESPONSIVE**/
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .cv {
         transform: translate(-2%, 140%);
         font-size: 4rem;
@@ -433,24 +433,8 @@ span {
         top: 22rem;
         left: -8rem;
     }
-  }
+  }     
 
 
-  @media (max-width: 700px) {
-    .cv {
-        transform: translate(-2%, 280%);
-        font-size: 4rem;
-        margin: 1rem;
-    }
-    .player {
-        top: 7rem;
-        left: 12.5rem;
-    }
-    .icons {
-        top: 22rem;
-        left: -12rem;
-    }
-  }
+
   
-
-
