@@ -172,7 +172,7 @@
 
 ul {
     width: 300px;
-    height: 40px;
+    height: 35px;
     float: right;
     list-style: none;
     padding: 10px;
@@ -186,14 +186,14 @@ ul {
     0%{margin-top: 0;}
     20%{margin-top: 0;}
 
-    25%{margin-top: -50px;}
-    50%{margin-top: -50px;}
+    25%{margin-top: -35px;}
+    50%{margin-top: -40px;}
 
-    55%{margin-top: -100px;}
-    80%{margin-top: -100px;}
+    55%{margin-top: -46px;}
+    70%{margin-top: -60px;}
 
-    85%{margin-top: -50px;}
-    95%{margin-top: -50px;}
+    75%{margin-top: -70px;}
+    99%{margin-top: -100px;}
 
     100%{margin-top: -0;}
 
@@ -433,6 +433,16 @@ span {
         top: 22rem;
         left: -8rem;
     }
+    .heading {
+        font-size: 2rem;
+        width: 450px;
+        height: 30px;
+        position: relative;
+        left: 3rem;
+        
+    }
+    
+    
   }     
 
 
