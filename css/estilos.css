@@ -163,8 +163,15 @@
     border-style: solid;
     border-color: #FBC800;
     border-radius: 25px;
-    border-width: 5px;
+    border-width: 2px;
     align-self: center;
+}
+
+/** boton back*/
+
+.atras{
+    width: 4rem;
+    height: 1rem;
 }
 
 
@@ -198,6 +205,7 @@ ul {
     100%{margin-top: -0;}
 
 }
+
 
 /** 
 maquina de escribir 
@@ -441,9 +449,29 @@ span {
         left: 3rem;
         
     }
+    .Regalos .card {
+        position: relative;
+        width: 140px;
+        height: 300px;
+        margin: 5px;
+        overflow: none;
+        font-size: 1rem;
+    }
+    .form-register {
+        width: 250px;
+        padding: 15px;
+        margin-top: 50px;
+    }
+    .controls {
+        width: 15rem;
+    }
+    .text {
+        width: 14.6rem;
+    }
     
     
-  }     
+    
+}     
 
 
 

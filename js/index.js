@@ -24,7 +24,7 @@ function sumarCapas(){
 
 
     var placas = document.querySelectorAll('.container-content');
-    maxContent = placas.length - 1;
+    maxContent = placas.length - 2;
     placas.forEach((item) => {
         item.classList.remove('show');
     });
@@ -53,6 +53,13 @@ function sumarCapas(){
 
     puntos++;
 
+    /**boton back */
+
+    
+
+    back.addEventListener('click', e => {
+        placas.length - 1;
+    })
 
     
 }
