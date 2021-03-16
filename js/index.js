@@ -57,9 +57,18 @@ function sumarCapas(){
 
     
 
-    back.addEventListener('click', e => {
-        placas.length - 1;
+    const back = document.getElementById('atras');
+
+    back.addEventListener('click', () => {
+        maxContent = placas.length - 5;
+        
+        placas.forEach((item) => {
+            item.classList.remove('show');
+        });
+        
+
     })
+
 
     
 }
