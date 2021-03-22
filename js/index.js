@@ -53,18 +53,33 @@ function sumarCapas(){
 
     puntos++;
 
-    /**boton back */
 
-    
+
+    /**boton back */
 
     const back = document.getElementById('atras');
 
     back.addEventListener('click', () => {
-        maxContent = placas.length - 5;
         
+        
+        //history.pushState(null, 'Home', placaActual);
+
+
+        document.querySelector('.container-content[data-order="0"]').classList.add('show');
+
+        
+        
+
+        /***
         placas.forEach((item) => {
-            item.classList.remove('show');
+            maxContent = placas.length - 2;
+            //item.classList.remove(placas);
+            //retun maxContent;
+            item.classList.remove('show'); 
         });
+         */
+
+        
         
 
     })
