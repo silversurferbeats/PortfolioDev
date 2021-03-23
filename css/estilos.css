@@ -151,6 +151,7 @@
     color: white;
     font-size: x-large;
 
+
 }
 
 .container-content.show {
@@ -159,7 +160,7 @@
 
 .parrafo {
     text-align: center;
-    
+    margin: 10rem;
     border-style: solid;
     border-color: #FBC800;
     border-radius: 25px;
@@ -171,10 +172,41 @@
 
 .atras{
     
-    position:relative;display:inline-block;width:277px;height:50px;line-height:60px;text-align:center;text-transform:uppercase;background-color:transparent;cursor:pointer;text-decoration:none;font-family:Roboto,sans-serif;font-weight:900;font-size:17px;letter-spacing:.045em;
-    position: relative; top:0; left:0;
-    stroke: #EC0033; stroke-width:4;stroke-dasharray:353,0;stroke-dashoffset:0;-webkit-transition:all 600ms ease;transition:all 600ms ease;
-    background: #ff8282; background:-moz-linear-gradient(left,black 0,black 100%);background:-webkit-linear-gradient(left,rgba(255,130,130,1) 0,rgba(225,120,237,1) 100%);background:linear-gradient(to right,rgba(255,130,130,1) 0,rgba(225,120,237,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1); -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    position: relative; 
+    left: center;
+    display: block;
+    width: 5rem;
+    height: 2rem;
+    line-height:center;
+    text-align:center;
+    text-transform:uppercase;
+    background-color:transparent;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:Roboto,sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing:.045em;
+    stroke: #EC0033; 
+    stroke-width: 4;
+    stroke-dasharray: 353,0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+    background: #ff8282; 
+    background: -moz-linear-gradient(left,black 0,black 100%);
+    background: -webkit-linear-gradient(left,rgba(255,130,130,1) 0,rgba(225,120,237,1) 100%);
+    background: linear-gradient(to right,rgba(255,130,130,1) 0,rgba(225,120,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 
 
@@ -185,7 +217,7 @@ ul {
     height: 35px;
     float: right;
     list-style: none;
-    padding: 10px;
+    padding: 4px;
     margin: 0;
 
     
@@ -194,13 +226,13 @@ ul {
 
 @keyframes cambiar {
     0%{margin-top: 0;}
-    20%{margin-top: 0;}
+    10%{margin-top: 0;}
 
-    25%{margin-top: -35px;}
-    50%{margin-top: -40px;}
+    15%{margin-top: -35px;}
+    40%{margin-top: -45px;}
 
-    55%{margin-top: -46px;}
-    70%{margin-top: -60px;}
+    45%{margin-top: -50px;}
+    60%{margin-top: -60px;}
 
     75%{margin-top: -70px;}
     99%{margin-top: -100px;}
@@ -254,9 +286,9 @@ span {
 
 .Regalos .card {
     position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 30px;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -298,7 +330,7 @@ span {
 }
 
 .Regalos .card .contenido p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #fff;
     font-weight: 300;
 }
@@ -326,7 +358,6 @@ span {
     background: #24303c;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
@@ -463,7 +494,7 @@ span {
     .form-register {
         width: 250px;
         padding: 15px;
-        margin-top: 50px;
+        margin-top: 5px;
     }
     .controls {
         width: 15rem;
