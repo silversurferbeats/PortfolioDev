@@ -417,9 +417,9 @@ span {
 
 
 .form-register {
-    width: 400px;
+    width: 500px;
     background: #24303c;
-    padding: 30px;
+    padding: 10px;
     margin: auto;
     border-radius: 4px;
     font-family: 'calibri';
@@ -429,7 +429,7 @@ span {
 
 .form-register h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
