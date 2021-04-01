@@ -127,19 +127,72 @@
     animation: none;
     
 }
+/**estilos titulo presentacion*/
 
+.perspective-text {
+    color: #340a4de3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.perspective-line {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+p {
+    margin: 0;
+    
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.677); 
+}
+
+.perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.333); 
+}
+
+.perspective-text:hover p{
+    transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+    left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+    left: 58px;
+}
+
+.perspective-line:nth-child(3) {
+    left: 87px;
+}
+
+.perspective-line:nth-child(4) {
+    left: 116px;
+}
+
+.perspective-line:nth-child(5) {
+    left: 145px;
+}
+
+/**
 .heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FBC800;
     font-size: 3rem;
     line-height: 0.9;
     font-weight: normal;
-
     overflow: hidden;
-    
-
 }
-
+*/
 .heading > div {
     font-weight: bold;
     font-size: 88px;
@@ -158,15 +211,25 @@
     display: block;    
 }
 
+.informacion {
+    width: 100rem;
+    height: 60rem;
+
+}
+
 .parrafo {
+    
     text-align: center;
     margin: 10rem;
     border-style: solid;
-    border-color: #FBC800;
+    border-color: rgb(252, 0, 76);
     border-radius: 25px;
-    border-width: 2px;
+    
     align-self: center;
+
 }
+
+
 
 /** boton back*/
 
@@ -376,7 +439,7 @@ span {
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #FBC800;
+    border: 1px solid rgb(252, 0, 76);
     font-family: 'calibri';
     font-size: 18px;
 }
@@ -389,13 +452,13 @@ span {
 }
 
 .form-register a:hover {
-    color: #FBC800;
+    color: rgb(252, 0, 76);
     text-decoration: underline;
 }
 
 .form-register .botons {
     width: 100%;
-    background: #FBC800;
+    background: rgb(252, 0, 76);
     border: none;
     padding: 12px;
     color: white;
@@ -427,7 +490,7 @@ span {
     width: 100%;
     height: 10rem;
     background: #24303c;
-    border: 1px solid #FBC800;
+    border: 1px solid rgb(252, 0, 76);
     padding: 12px;
     color: white;
     margin: 16px 0;
@@ -475,6 +538,16 @@ span {
         top: 22rem;
         left: -8rem;
     }
+    .perspective-text {
+        font-size: 2.2rem;
+        width: 450px;
+        height: 30px;
+        position: relative;
+        left: 2rem;
+        top: -15rem;
+
+    }
+    /*
     .heading {
         font-size: 2rem;
         width: 450px;
@@ -482,6 +555,13 @@ span {
         position: relative;
         left: 3rem;
         
+    }
+    */
+    .informacion {
+        font-size: 2rem;
+        width: 100%;
+        height: 20rem;
+
     }
     .Regalos .card {
         position: relative;
